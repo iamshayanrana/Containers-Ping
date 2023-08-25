@@ -7,7 +7,8 @@
 #                                         docker run -d --network mynetwork --name container2 python sleep 3600
 
 
-#-Use commad for output : container1_ip=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container1)
+#-Use commad for output : 
+#                                         container1_ip=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container1)
 
 
 #-Than add iptables in these containers :
